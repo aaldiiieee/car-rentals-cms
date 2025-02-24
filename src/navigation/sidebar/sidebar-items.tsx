@@ -88,6 +88,7 @@ export const sidebarItems: NavGroup[] = [
         title: "Testimonials",
         path: "#",
         icon: MessageSquareMore,
+        subItems: [{ title: "List Testimonials", path: `${basePath}/cms/testimonials` }],
       },
     ],
   },

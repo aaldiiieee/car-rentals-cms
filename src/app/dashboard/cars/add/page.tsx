@@ -278,7 +278,7 @@ export default function Page() {
               />
             </CardContent>
             <CardFooter className="mt-4">
-              <Button type="submit" className="w-full h-12" disabled={addCarMutation.isPending}>
+              <Button type="submit" className="h-12 w-full" disabled={addCarMutation.isPending}>
                 {addCarMutation.isPending ? "Adding..." : "Add Car"}
               </Button>
             </CardFooter>
